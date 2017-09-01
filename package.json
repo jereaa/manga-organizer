@@ -1,0 +1,21 @@
+{
+  "name": "manga-organizer",
+  "version": "1.0.0",
+  "description": "Move manga files from one default dir to another set one",
+  "main": "./dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "author": "Jere Aagaard",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^4.0.1",
+    "@types/node": "^8.0.26",
+    "tslint": "^5.7.0"
+  },
+  "dependencies": {
+    "fs-extra": "^4.0.1",
+    "typescript": "^2.5.2"
+  }
+}
