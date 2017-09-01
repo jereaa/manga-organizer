@@ -2,7 +2,7 @@
 
 Just a little app to move files around (I made it for manga files).
 
-### Usage
+### Setup
 
 Set your configurations in `config.json`.
 
@@ -18,3 +18,13 @@ Example:
         }
     ]
 }
+```
+
+### Usage
+
+Execute the following commands in the root folder of the project.
+```bash
+npm install
+npm run tsc
+npm start
+```
